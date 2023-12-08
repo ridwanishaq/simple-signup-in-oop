@@ -3,8 +3,8 @@
 class Database
 {
     /**connection credentials */
-    private $host       = "localhost";
-    private $dbname     = "php_prog_db";
+    private $host       = "mysql";
+    private $dbname     = "learning_php_prog";
     private $username   = "ubuntu";
     private $password   = "password";
 

@@ -1,9 +1,9 @@
 <?php
 
 if ( $_SERVER['REQUEST_METHOD'] == "POST") {
-    $name       = $_POST['name'];
-    $username   = $_POST['username'];
-    $password   = $_POST['password'];
+    $name       = trim($_POST['name']);
+    $username   = trim($_POST['username']);
+    $password   = trim($_POST['password']);
 
     if ( 
         (isset($name) && !empty($name)) &&

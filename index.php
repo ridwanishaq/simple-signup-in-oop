@@ -78,15 +78,15 @@
         </div>
         <div class="form-group">
             <label for="">Name</label>
-            <input type="text" name="name" >
+            <input type="text" name="name" required>
         </div>
         <div class="form-group">
             <label for="">Username</label>
-            <input type="text" name="username" >
+            <input type="text" name="username" required>
         </div>
         <div class="form-group">
             <label for="">Password</label>
-            <input type="password" name="password" >
+            <input type="password" name="password" required>
         </div>
         <div class="form-footer">
             <button type="submit">SignUp</button>
